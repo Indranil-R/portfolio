@@ -63,7 +63,7 @@ body {
 }
 /* ---------------------------- intro ends here ------------------------------ */
 .hero {
-  height: 100vh;
+  height: 45rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -76,12 +76,16 @@ body {
   margin: 0.5rem 0 0.5rem 0;
 }
 .hero1 {
-  font-size: 1.3rem;
+  font-size: 2rem;
   color: rgb(44, 203, 214);
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 2px solid white;
+  padding-bottom: 2px;
+  width: fit-content;
 }
 .hero2 {
   font-size: 4.4rem;
+  /* color: #608DFF; */
   color: white;
   width: 40rem;
   /* border: 2px solid tomato; */
@@ -263,7 +267,7 @@ input {
   content: "";
   /* border-right: 2px solid red; */
   animation: changetext 10s infinite linear;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 @keyframes changetext {
   0% {
