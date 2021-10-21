@@ -29,6 +29,9 @@ body {
   top: 0;
   width: 100%; */
 }
+.fa-bars{
+  display: none;
+}
 .hdr-logo {
   color: #ffffff;
   /* width: 6px; */
