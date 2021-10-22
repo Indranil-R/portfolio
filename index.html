@@ -14,14 +14,14 @@
   <body>
     <header class="hdr">
       <a href="">
-        <h1 class="hdr-logo">INDRANIL</h1>
+        <h1 class="hdr-logo">Indranil</h1>
       </a>
 
       <div class="nav" id="dropdown">
-        <a  href="#hero" class="nav-li btn">About me</a>
-        <a  href="#services" class="nav-li btn">Services</a>
-        <a  href="#project" class="nav-li btn">Projects</a>
-        <a  href="#contact" class="nav-li btn">Contact me</a>
+        <a href="#hero" class="nav-li btn">About me</a>
+        <a href="#services" class="nav-li btn">Services</a>
+        <a href="#project" class="nav-li btn">Projects</a>
+        <a href="#contact" class="nav-li btn">Contact me</a>
       </div>
 
       <h1 class="hdr-logo forhiding">
@@ -31,17 +31,27 @@
       </h1>
 
       <a href="javascript:void(0)" onclick="toggle()" class="menu">
-        <img class="menu-white" src="Images/menu_white.svg" alt="no image" />
+        <img
+          class="menu-white"
+          src="Images/menu_white.svg"
+          alt="menu"
+          id="menuimg"
+        />
       </a>
     </header>
 
     <script>
       function toggle() {
         sub = document.getElementById("dropdown");
-        if (sub.style.display != "none") {
+        img = document.getElementById("menuimg");
+
+        if (sub.style.display != "none" && img.src != "Images/menu_white.svg") {
           sub.style.display = "none";
+          img.src = "Images/menu_white.svg";
         } else {
           sub.style.display = "block";
+          img.src = "Images/close_white.svg";
+
         }
       }
     </script>
@@ -57,23 +67,23 @@
       </div>
     </section>
 
-    
+        
     
     <section class="skill" id="services">
       <div class="kill-divi">
         <h1 class="skill-section">My Skills</h1>
         <ul class="language">
-          <li class="language-li"><img src="Images/html.png" alt="" /></li>
-          <li class="language-li"><img src="Images/css.png" alt="" /></li>
-          <li class="language-li"><img src="Images/javascript.png" alt="" /></li>
-          <li class="language-li"><img src="Images/python.png" alt="" /></li>
-          <li class="language-li"><img src="Images/C.png" alt="" /></li>
-          <li class="language-li"><img src="Images/c++.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/html.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/css.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/javascript.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/python.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/C.png" alt="" /></li>
+          <li class="language-li"><img class="skill-img" src="Images/c++.png" alt="" /></li>
         </ul>
       </div>
     </section>
-
-<!--     <section class="pt" id="project">
+<!-- 
+    <section class="pt" id="project">
       <div class="pt-dv">
         <h1 class="pt-h1">Some of my projects</h1>
         <ul class="pt-h1-ul">
@@ -124,7 +134,7 @@
         </div>
       </div>
       <p class="footer-para">(c) Indranil Roy - 2021</p>
-    </footer>
-     -->
+    </footer> -->
+    
   </body>
 </html>
