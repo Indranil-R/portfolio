@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 :root {
   --txt-color: #0077ed;
 }
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @media only screen and (min-width: 769px) {
   .nav {
     display: flex;
@@ -60,13 +61,17 @@
     font-size: 3rem;
   }
 }
+
 /* end of media query------------------------------------------ */
+
 body {
   background-color: var(--bg-color);
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -75,10 +80,15 @@ html {
   font-weight: normal;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  /* font-family: 'Hahmlet', serif; */
+  font-family: "Roboto", sans-serif;
+  /* text-transform: uppercase; */
 }
+
 .menu {
   display: none;
 }
+
 .hdr {
   position: relative;
   display: flex;
@@ -86,7 +96,6 @@ html {
   align-items: center;
   /* flex-direction: column; */
   box-shadow: 0px 5px 20px 0px #000;
-
   padding: 0.7rem 2rem;
   background-color: var(--bg-color);
   background-color: #7eb0e4;
@@ -94,6 +103,7 @@ html {
   top: 0;
   width: 100%; */
 }
+
 .nav {
   /* display: flex; */
   list-style-type: none;
@@ -106,9 +116,9 @@ html {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bolder;
-
   /* width: 6px; */
 }
+
 .mail-svg {
   width: 2rem;
 }
@@ -118,15 +128,14 @@ html {
   padding: 0.5rem;
   cursor: pointer;
   text-transform: uppercase;
-
   position: relative;
-
   text-align: center;
-
   color: #ffffff;
   border-radius: 5px;
 }
+
 /* ---------------------------- intro ends here ------------------------------ */
+
 .hero {
   height: 45rem;
   display: flex;
@@ -137,9 +146,11 @@ html {
   background: linear-gradient(192deg, #220e49 0%, #217d84 100%);
   background: linear-gradient(0deg, #220e49 0%, #217d84 100%);
 }
+
 .heros p {
   margin: 0.5rem 0 0.5rem 0;
 }
+
 .hero1 {
   font-size: 2rem;
   color: rgb(44, 203, 214);
@@ -148,6 +159,7 @@ html {
   padding-bottom: 2px;
   width: fit-content;
 }
+
 .hero2 {
   font-size: 4.4rem;
   /* color: #608DFF; */
@@ -155,6 +167,7 @@ html {
   width: 40rem;
   /* border: 2px solid tomato; */
 }
+
 .hire-me {
   font-size: 1.3rem;
   /* border-radius: 10px; */
@@ -164,15 +177,17 @@ html {
   background-color: #60a2d5;
   color: white;
   /* background-color: black; */
-
   border: none;
 }
+
 .profile-img {
   width: 20rem;
   border-radius: 50%;
   border: 1rem solid var(--txt-color);
 }
+
 /* --------------------------------------------------------------------------------------------------------------------------------------------- */
+
 .skill {
   background: #3f2727 url(Images/back1.jpg) center center/cover no-repeat
     padding-box;
@@ -180,6 +195,7 @@ html {
 }
 
 /* =============================================================================================================== */
+
 .pt {
   padding: 3rem 10%;
   display: flex;
@@ -190,6 +206,7 @@ html {
   background: linear-gradient(45deg, #44c2e5 0%, #5877d4 100%);
   background: linear-gradient(320deg, #024e62 0%, #00146f 100%);
 }
+
 .pt-dv {
   display: flex;
   justify-content: space-between;
@@ -198,19 +215,21 @@ html {
   width: 80%;
   padding: 2rem;
 }
+
 .pt-h1 {
   margin-bottom: 2rem;
   font-size: 2rem;
   text-transform: uppercase;
 }
+
 .pt-h1-ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-
   width: 90%;
 }
+
 .pt-h1-li {
   display: block;
   box-sizing: border-box;
@@ -222,6 +241,7 @@ html {
   background-image: url(Images/project.jpg);
   background-size: cover;
 }
+
 /* =============================================================================================================== */
 
 .cont {
@@ -234,6 +254,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .cont-me {
   margin: 0.5rem;
   /* border: 2px solid white; */
@@ -243,6 +264,7 @@ html {
   text-decoration: underline;
   /* background-color: var(--txt-color); */
 }
+
 .contact {
   background-color: white;
   width: 60%;
@@ -258,16 +280,19 @@ html {
   flex-direction: column;
   padding: 1rem;
 }
+
 .contact-form p,
 input {
   margin: 0.5rem;
 }
+
 .contact-text {
   padding: 5px;
   border-radius: 10px;
   color: #000000;
   border-color: var(--txt-color);
 }
+
 .contact-button {
   padding: 6px 10px;
   color: white;
@@ -275,6 +300,7 @@ input {
   border: none;
   cursor: pointer;
 }
+
 .footer {
   /* line-height: 3rem; */
   padding: 5px 0;
@@ -284,21 +310,23 @@ input {
   justify-content: center;
   align-items: center;
 }
+
 .change-content::after {
   content: "";
   /* border-right: 2px solid red; */
   animation: changetext 10s infinite linear;
   /* text-decoration: underline; */
 }
+
 @keyframes changetext {
   0% {
     content: "Student";
   }
   20% {
-    content: "Programmer";
+    content: "Coder";
   }
   40% {
-    content: "Enthusiast";
+    content: "Aspirant";
   }
   60% {
     content: "Freelancer";
@@ -310,6 +338,7 @@ input {
     content: "Developer";
   }
 }
+
 .btn::before {
   border: inherit;
   content: "";
@@ -321,7 +350,6 @@ input {
   /* width: fit-content; */
   z-index: -1;
   background-color: white;
-
   transition: transform 600ms ease-in-out;
   transform: scaleX(0);
   transform-origin: left;
@@ -341,17 +369,22 @@ input {
 .btn:focus {
   color: var(--txt-color);
 }
+
 /* -----------------------------------------------------------------------------------------------4 */
+
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .icon {
   margin: 5px 1rem;
   cursor: pointer;
 }
+
 /* ------------------------------------------------------------------------------------ */
+
 .hire-me::before {
   border: inherit;
   content: "";
@@ -363,7 +396,6 @@ input {
   /* width: fit-content; */
   z-index: -1;
   background-color: white;
-
   transition: transform 600ms ease-in-out;
   transform: scaleX(0);
   transform-origin: left;
@@ -383,9 +415,11 @@ input {
 .hire-me:focus {
   color: black;
 }
+
 a {
   list-style-type: none;
 }
+
 .hdr a {
   text-decoration: none;
 }
