@@ -1,3 +1,7 @@
+:root {
+  --txt-color: #0077ed;
+}
+
 @media only screen and (max-width: 768px) {
   * {
     margin: 0;
@@ -15,6 +19,21 @@
     position: relative;
     /* overflow: hidden; */
     /* display: block; */
+    
+      position: relative;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      box-shadow: 0px 5px 20px 0px #000;
+    
+      padding: 0.7rem 2rem;
+      background-color: var(--bg-color);
+      background-color: #7eb0e4;
+      /* position: fixed;
+      top: 0;
+      width: 100%; */
+    
   }
 
   .hdr-logo {
@@ -48,7 +67,7 @@
   }
   .profile-img {
     width: 10rem;
-    border: 2px;
+    border: .6em solid var(--txt-color);
   }
   .hero1 {
     font-size: 1.6em;
@@ -56,7 +75,7 @@
   }
   .hero2 {
     /* size: 45em; */
-    font-size: 3.6em;
+    font-size: 2.8em;
     width: 100%;
     color: #608dff;
   }
@@ -71,7 +90,13 @@
     padding: 0.5em;
     font-size: 1.4em;
     /* border: 2px solid gray; */
-    border-radius: 0%;
+    border-radius: 25px;
+    
+  }
+  .hire-me:hover{
+  color: #60a2d5;
+  
+    background-color: white;
   }
   .forhiding {
     display: none;
@@ -82,9 +107,7 @@
     display: block;
     /* position: relative; */
   }
-  .hdr #dropdown {
-    display: none;
-  }
+
 
   .hdr a{
     /* padding: 14px 16px; */
@@ -100,6 +123,12 @@
     top:  8px;
     right: 14px;
   }
+  .hdr #dropdown {
+    display: none;
+    margin-top: 1rem;
+    /* position: absolute; */
+  }
+ 
 
 
 }
