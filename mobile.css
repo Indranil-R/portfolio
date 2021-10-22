@@ -2,24 +2,26 @@
   * {
     margin: 0;
     padding: 0;
+
     /* font-size: 1em; */
   }
   .hdr {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
     margin: 0%;
     padding: 8px 14px;
+    position: relative;
+    /* overflow: hidden; */
+    /* display: block; */
   }
+
   .hdr-logo {
     font-size: 1.5em;
+    /* margin-bottom: 1em; */
   }
-  .fas {
-    display: block;
-    /* color: black; */
-  }
-  .nav,
+
   .mail-svg {
     display: none;
   }
@@ -41,7 +43,7 @@
     justify-content: space-evenly;
     flex-direction: column;
     width: 100%;
-    padding: 4em;
+    padding: 3em;
     margin: 1em;
   }
   .profile-img {
@@ -54,9 +56,9 @@
   }
   .hero2 {
     /* size: 45em; */
-    font-size: 4em;
+    font-size: 3.6em;
     width: 100%;
-    color: #608DFF;
+    color: #608dff;
   }
   .change-content {
     /* display: flex; */
@@ -64,4 +66,40 @@
     font-size: inherit;
     color: inherit;
   }
+
+  .hire-me {
+    padding: 0.5em;
+    font-size: 1.4em;
+    /* border: 2px solid gray; */
+    border-radius: 0%;
+  }
+  .forhiding {
+    display: none;
+  }
+
+ 
+  .menu{
+    display: block;
+    /* position: relative; */
+  }
+  .hdr #dropdown {
+    display: none;
+  }
+
+  .hdr a{
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    /* color: black; */
+    /* background-color: burlywood; */
+    display: block;
+  }
+  .hdr .menu .menu-white{
+    /* background-color: black; */
+    display: block;
+    position: absolute;
+    top:  8px;
+    right: 14px;
+  }
+
+
 }
