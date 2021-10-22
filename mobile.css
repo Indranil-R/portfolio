@@ -176,4 +176,15 @@
   .pt-h1-ul li img {
     width: 180%;
   }
+  .cont {
+    padding: 5em 0;
+    font-size: 80%;
+  }
+  .contact {
+    width: auto;
+    padding: 10px;
+  }
+  .cont-me {
+    font-size: 1.5em;
+  }
 }
