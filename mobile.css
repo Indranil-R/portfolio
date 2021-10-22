@@ -56,7 +56,7 @@
     flex-direction: column-reverse;
     font-size: 60%;
     padding: 4em 20px;
-    padding-top: calc(4em + 52px) ;
+    padding-top: calc(4em + 52px);
     /* margin-top: 52px; */
   }
   .heros {
@@ -135,12 +135,6 @@
     /* position: absolute; */
   }
 
-
-
-
-
-
- 
   .kill-divi {
     display: flex;
     justify-content: center;
@@ -148,7 +142,7 @@
     /* width: 70%; */
     flex-direction: column;
     /* background: #3f2727; */
-    margin: 0 ;
+    margin: 0;
   }
   .skill-section {
     /* margin-bottom: 2rem; */
@@ -157,7 +151,7 @@
     align-items: center;
     text-transform: uppercase;
     font-size: 100%;
-    margin: .4em .6em;
+    margin: 0.4em 0.6em;
   }
   .language {
     display: flex;
@@ -184,6 +178,5 @@
   .language li img {
     width: 5rem;
     /* border-radius: 70%; */
-
   }
 }
