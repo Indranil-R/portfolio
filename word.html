@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="word.css" />
+
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+
+    <title>Word Count</title>
+    <script>
+      function count() {
+        var char = document.getElementById("text1").value;
+        document.getElementById("character").innerHTML = char.length;
+        let words = char.match(/\w+/g);
+
+       document.getElementById("words").innerHTML = words.length;
+      }
+      setInterval(count, 2);
+    </script>
+  </head>
+  <body>
+    <h1 class="logo">WORD COUNTER</h1>
+    <form action="" class="form">
+      <textarea        name="usertext"        id="text1"        class="maintext"        style="max-width: 80%; resize: none;"        cols="90"        rows="30"         placeholder="Type or Paste your text here"        required></textarea>    </form>
+    <div class="results">
+      <h3 class="result">Result&nbsp;:</h3>
+      <p class="char">
+        Total character :&nbsp;<span id="character" class="leng">0</span>
+      </p>
+      <p class="char">
+        Total Words :&nbsp;<span id="words" class="leng">0</span>
+      </p>
+    </div>
+  </body>
+</html>

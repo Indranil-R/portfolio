@@ -12,7 +12,7 @@ function toggle() {
 }
 
 function thanks() {
-    alert(
-      "Your Response has been Saved !!  Thank you very much 😊 for checking my website !!"
-    );
-  }
+  alert(
+    "Your Response has been Saved !!  Thank you very much 😊 for checking my website !!"
+  );
+}
