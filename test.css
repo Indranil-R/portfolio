@@ -1,0 +1,36 @@
+:root {
+    --txt-color: #0077ed;
+  }
+@media only screen and (max-width: 768px) {
+
+    footer {
+        padding: .3em 1;
+        height: max-content;
+        width: 100vw;
+        background-color: #7EB0E4;
+    }
+    .social-medias-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-medias-link {
+        /* background-color: white; */
+        margin: .5em;
+        width: 50%;
+        overflow: hidden;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .social-medias-image {
+        width: 45%;
+        /* margin: 1em; */
+    }
+    .footer-para{
+        text-align: center;
+        color: white;
+    }
+}
