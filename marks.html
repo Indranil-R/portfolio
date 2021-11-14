@@ -2,31 +2,144 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Indranil-R</title>
-    <link rel="stylesheet" href="marks.css" />
+    <title>CodePen - A Pen by Indranil-R</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <script src="marks.js"></script>
-    <section class="section">
-      <div class="heading">
-        <h1 class="center">MARKS CALCULATOR</h1>
-        <h4>using javascript</h4>
+    <section class="main-sec">
+      <!-- partial:index.partial.html -->
+      <section class="heading">
+        <h1 class="heading">Subjectwise Percentage Calculator</h1>
+        <h3 class="heading1">using javascript</h3>
+      </section>
+      <table>
+        <tr>
+          <th>Subjects</th>
+          <th>marks Obtained</th>
+          <th>maximum marks</th>
+        </tr>
+
+        <tr>
+          <td><label for="fname">Subject One</label></td>
+          <td>
+            <input
+              name="fname"
+              type="number"
+              placeholder="enter marks"
+              id="m1"
+            />
+          </td>
+          <td>
+            <input
+              name="fname"
+              type="number"
+              placeholder="100"
+              value="100"
+              id="t1"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="sname">Subject Two</label></td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="enter marks"
+              id="m2"
+            />
+          </td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="100"
+              value="100"
+              id="t2"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="fname">Subject Three</label></td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="enter marks"
+              id="m3"
+            />
+          </td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="100"
+              value="100"
+              id="t3"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="fname">Subject Four</label></td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="enter marks"
+              id="m4"
+            />
+          </td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="100"
+              value="100"
+              id="t4"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="fname">Subject Five</label></td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="enter marks"
+              id="m5"
+            />
+          </td>
+          <td>
+            <input
+              name="sname"
+              type="number"
+              placeholder="100"
+              value="100"
+              id="t5"
+            />
+          </td>
+        </tr>
+      </table>
+
+      <div class="submit">
+        <input
+          class="button"
+          type="submit"
+          onclick="getVal()"
+          value="calculate"
+        />
       </div>
 
-      <input value="CALCULATE" type="submit" onclick="mark()" class="btn" />
-
-      <p id="para"></p>
-      <br /><span class="margin" id="percent"></span>
-
-      <div class="instruct">
-        <ol class="Instruc">
-          <h5>Instructions</h5>
-          <li><small>Click on the calculate button to get started</small></li>
-          <li><small>The page will ask you to enter your marks</small></li>
-          <li><small>Enter your marks one by one</small></li>
-          <li><small>You are ready to go</small></li>
-        </ol>
+      <br />
+      <div class="result">
+        <p class="percentage" id="percentage"></p>
+        <p class="errors" id="errors">// Errors will appear here</p>
       </div>
+
+      <!-- <form action="mailto:indranilroy2003@gmail.com" method="post" enctype="text/plain">
+  <label></label> -->
+      <!-- partial -->
+      <script src="./script.js"></script>
     </section>
   </body>
 </html>
