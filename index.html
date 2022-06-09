@@ -1,171 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Indranil's Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
 
-    <link rel="shortcut icon" href="Images/profile.jpg" type="image/x-icon" />
-    <script src="script.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <!-- <link rel="stylesheet" href="mobile.css" /> -->
-  </head>
-  <body>
-    <header class="hdr">
-      <a href="">
-        <h1 class="hdr-logo">Indranil</h1>
-      </a>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="assets/css/style1.css" />
+  <link rel="stylesheet" href="assets/css/mobile1.css" />
+</head>
 
-      <div class="nav" id="dropdown">
-        <a href="#hero" class="nav-li btn" >About me</a>
-        <a href="#services" class="nav-li btn" >Skills</a>
-        <a href="#project" class="nav-li btn" >Projects</a>
-        <a href="#contact" class="nav-li btn" >Contact me</a>
+<body>
+  <div class="d-flex justify-content-center  align-items-center  bg-secondary">
+    <div class="row container justify-content-center p-2 text-center">
+      <div class="col-sm">
+        <i class="bi bi-geo-fill">Shantiban Complex, Vishrambag, Sangli - 416415</i>
+      </div>
+      <div class="col-sm">
+        <i class="bi bi-telephone-fill"> 023 32303763</i>
       </div>
 
-
-      <a href="javascript:void(0)" onclick="toggle()" class="menu">
-        <img
-          class="menu-white"
-          src="Images/menu_white.svg"
-          alt="menu"
-          id="menuimg"
-        />
-      </a>
-    </header>
-
-   
-
-    <section class="hero" id="hero">
-      <div class="heros">
-        <p class="hero1">Hi I'm Indranil Roy</p>
-        <p class="hero2">I am a <span class="change-content"></span></p>
-        <input type="button" value="Hire Me" class="hire-me btn" />
-        
+      <div class="col-sm">
+        <a href=""><i class="bi bi-facebook px-2"></i></a>
+        <a href=""><i class="bi bi-whatsapp px-2"></i></a>
+        <a href=""><i class="bi bi-instagram px-2"></i></a>
+        <a href=""><i class="bi bi-twitter px-2"></i></a>
       </div>
-      <div class="image">
-        <img src="Images/profile1.jpg" alt="my image" class="profile-img" />
+    </div>
+  </div>
+
+  <section id="main-nav" class="text-center">
+    <div id="main-nav-div" class="">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-75">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <h5>Waterproofing Chowgule</h5>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <main>
+    <div id="hero">
+      <div id="hero-div" class="container">
+        <!-- <div class="header-div text-center"> -->
+        <h1>Chowgule waterproofing</h1>
+        <!-- </div> -->
+        <h4>The Most Reliable Waterproofing</h4>
+        <p>
+          WATERPROOFING CHOWGULE is newly up growing company and has been in
+          business for over two years and their success rate in this industry,
+          Residential & Commercial Industry, speaks for itself.
+          <br />
+          With the continues research they did on the products they use in the
+          industry, the business has grown so much that they are in a position
+          to provide a 10 years guarantee on their workmanship.
+        </p>
+        <div id="hero-links">
+          <a href="" class="btn btn-primary"><i class="bi bi-telephone"></i>&nbsp;Call Us</a>
+          <a href="" class="">Our Services&nbsp;<i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <section id="services" class="m-4">
+      <div class="container text-center ">
+        <h1><i class="bi bi-gear"></i>&nbsp;Our Services</h1>
+        <div class="col-sm ">
+          <div class="row ">
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Water Proofing & Roof Leaks</h5>
+
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Damp Proofing & all Painting works</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Installations of Ceilings</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing_3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Maintenance of Buildings</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cleaning of Construction sites </h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Corrugated Iron Roofs Waterproofing</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/terrace_waterproofing_4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Waterproofing Painting Work</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/epj_waterproofing_1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Basement Waterproofing</h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm d-flex justify-content-center my-4">
+              <div class="card" style="width: 18rem;">
+                <img src="assets/img/toilet_waterproofing_2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Toilet Waterproofing </h5>
+                  <a href="#" class="btn btn-primary">- Call Now -</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="aboutUs" class="bg-secondary">
+      <div class="container px-4">
+        <h1 id="aboutus-heading" class="text-center py-4"><i class="bi bi-file-person-fill"></i>&nbsp;About Us</h1>
+        <div class="row justify-content-center ">
+          <div class="col-md-4 mb-2 d-grid justify-content-center align-items-center" style="overflow: hidden;">
+            <img src=" assets/img/terrace_waterproofing_4.png" />
+          </div>
+          <div class="col-md-5 my-2 p-2 px-5">
+            Waterproofing chowgule is newly up growing company and has been in business for over two years and
+            their success rate in this industry residential commercial industry speaks for itself with the
+            continues research they did on the products they use in the industry the business has grown so much
+            that they are in a position to provide a 10 years guarantee on their workmanship the owner director
+            of waterproofing chowgule is mr santosh chowgule he is having more than 12 years individual
+            experience in waterproofing industry with thoughtful knowledge of waterproofing product with the
+            excellent track record they have built up over the years and the happy and satisfied customers
+            waterproofing chowgule is the correct business partner to do business with they guarantee to make a
+            success of each and every project they do.
+          </div>
+        </div>
       </div>
     </section>
+  </main>
 
-    <section class="skill" id="services">
-      <div class="kill-divi">
-        <h1 class="skill-section">MY SKILLS</h1>
-        <ul class="language">
-          <li class="language-li">
-            <img class="skill-img" src="Images/html.png" alt="" />
-          </li>
-          <li class="language-li">
-            <img class="skill-img" src="Images/css.png" alt="" />
-          </li>
-          <li class="language-li">
-            <img class="skill-img" src="Images/javascript.png" alt="" />
-          </li>
-          <li class="language-li">
-            <img class="skill-img" src="Images/python.png" alt="" />
-          </li>
-          <li class="language-li">
-            <img class="skill-img" src="Images/clang.png" alt="" />
-          </li>
-          <li class="language-li">
-            <img class="skill-img" src="Images/c++.png" alt="" />
-          </li>
-        </ul>
-      </div>
-    </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</body>
 
-    <section class="pt" id="project">
-      <div class="pt-dv">
-        <h1 class="pt-h1">SOME OF MY PROJECTS</h1>
-        <ul class="pt-h1-ul">
-          <li class="pt-h1-li">
-            <a href="word.html" target=" " class="pt-h1-a">            <img class="pt-h1-li-img" src="Images/wordCount.png" alt="" />
-              <p class="pt-h1-li-para">Word Counter</p>
-            </a>
-          </li>
-          <li class="pt-h1-li">
-            <a href="marks.html" target=" " class="pt-h1-a">            <img class="pt-h1-li-img" src="Images/wordCount.png" alt="" />
-              <p class="pt-h1-li-para">Word Counter</p>
-            </a>
-          </li>
-          <li class="pt-h1-li"></li>
-          <li class="pt-h1-li"></li>
-          <li class="pt-h1-li"></li>
-          <li class="pt-h1-li"></li>
-        </ul>
-      </div>
-    </section>
-    <footer class="social-medias">
-      <h1 class="social-media-heading">Follow me on Social Media</h1>
-      <div class="social-medias-wrapper">
-        
-        <a href="" target=" " class="social-medias-link"
-          ><img src="Images/facebook.svg" alt="" class="social-medias-image"
-        /></a>
-        <a href="" target=" " class="social-medias-link"
-          ><img src="Images/twitter.svg" alt="" class="social-medias-image"
-        /></a>
-        <a
-          href="https://www.instagram.com/i_am_indranil_roy/"
-          target=" "
-          class="social-medias-link"
-          ><img src="Images/instagram.svg" alt="" class="social-medias-image"
-        /></a>
-        <a
-          href="https://www.linkedin.com/in/indranil-roy-b3636b194/"
-          target=" "
-          class="social-medias-link"
-          ><img src="Images/linkedin.svg" alt="" class="social-medias-image"
-        /></a>
-        <a
-          href="https://github.com/Indranil-R"
-          target=" "
-          class="social-medias-link"
-          ><img src="Images/github.svg" alt="" class="social-medias-image"
-        /></a>
-      </div>
-      
-    </footer>
-
-    <section class="cont" id="contact">
-      <div class="contact">
-        <h1 class="cont-me">CONNECT WITH ME</h1>
-        <form action="mailto:indranilroy2003@gmail.com" method="post" enctype="text/plain" class="contact-form">
-          <p>Name <input type="text" name="YourName" value="" /></p>
-          <p>Email <input type="email" name="YourEmail" value="" id="" /></p>
-          <p>
-            <textarea
-              name="YourMessage"
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="leave your message here"
-              style="resize: none"
-              class="contact-text"
-            ></textarea>
-          </p>
-          <input
-            type="button"
-            value="SEND"
-            class="contact-button"
-            
-          />
-        </form>
-      </div>
-    </section>
-    <h1 class="ending">(C) Indranil Roy - 2021</h1>
-    <script>
-      function thanks() {
-        alert(
-          "Sorry !!! I will add this feature soon \n Thank you very much 😊 for checking my website !!"
-        );
-      }
-    </script>
-
-     
-
-   
-  </body>
 </html>

@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1000px) {
+  #top-nav-div {
+    /* display: none; */
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+  #hero-div {
+    max-width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #hero h1,
+  h4,
+  p {
+    max-width: fit-content;
+  }
+  #hero #hero-links {
+    display: block;
+    width: max-content;
+  }
+  #hero #hero-links a {
+    margin: 0px 1vw;
+  }
+}

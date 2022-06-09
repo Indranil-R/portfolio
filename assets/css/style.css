@@ -1,0 +1,20 @@
+.services {
+  display: grid;
+  justify-content: center;
+}
+.hero {
+  padding: 2rem 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: fit-content;
+  gap: 50px;
+}
+.hero h1,
+p {
+  max-width: 40vw;
+}
+#hero h1 {
+  font-size: 34px;
+}
